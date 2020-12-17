@@ -54,19 +54,22 @@ bash build_gui.sh
 
 
 3. Build OImaging UWS server:
-bash build_Oimaging-srv.sh
+bash build_OImaging-srv.sh
 
 
-3. Run Tools:
+4. Run Tools:
 - run ASPRO2 GUI:
 bash run_Aspro2-gui.sh
 
+- run OIFitsExplorer GUI:
+bash run_OIFitsExplorer-gui.sh
+
 - run OImaging:
     - run OImaging UWS server (locally):
-    bash run_Oimaging-srv.sh
+    bash run_OImaging-srv.sh
 
     - run OImaging GUI:
-    bash run_Oimaging-gui.sh
+    bash run_OImaging-gui.sh
 
 
 

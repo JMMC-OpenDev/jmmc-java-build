@@ -8,7 +8,7 @@
     <version>TRUNK</version>
 
     <packaging>pom</packaging>
-    <name>JMMC Java modules</name>
+    <name>Jmmc Java GUIs</name>
 
     <modules>
         <module>jmcs</module>
@@ -21,24 +21,25 @@
 
         <module>aspro-conf</module>
         <module>aspro</module>
-<!--
+
         <module>sclgui</module>
--->
+
         <module>oiexplorer</module>
-<!--
+
         <module>mfgui</module>
--->
+
         <module>oimaging</module>
-<!--
+
         <module>smprsc</module>
         <module>smprun</module>
         <module>smptest</module>
--->
-        <module>oiexplorer-existdb</module>
+
 <!--
+        <module>oiexplorer-existdb</module>
         <module>exist</module>
 -->
 
+        <module>jmmc-tools</module>
     </modules>
 
 </project>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- Application specific configuration -->
+<included>
+
+    <!-- Aspro -->
+    <appender name="WARNINGLOG" class="fr.jmmc.jmcs.logging.ByteArrayOutputStreamAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <!-- SearchCal -->
+    <appender name="SERVERLOG" class="fr.jmmc.jmcs.logging.ByteArrayOutputStreamAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %msg</pattern>
+        </encoder>
+    </appender>
+
+
+    <!-- Aspro -->
+    <logger name="fr.jmmc.aspro" level="INFO"/>
+
+    <!-- Aspro warning -->
+    <logger name="fr.jmmc.aspro.warning" level="INFO" additivity="true">
+        <appender-ref ref="WARNINGLOG" />
+        <appender-ref ref="STATUSLOG" />
+    </logger>
+
+
+    <!-- SearchCal -->
+    <logger name="fr.jmmc.sclgui" level="INFO"/>
+
+    <!-- SearchCal server log -->
+    <logger name="fr.jmmc.sclgui.server" level="INFO" additivity="true">
+        <appender-ref ref="SERVERLOG" />
+    </logger>
+
+
+    <!-- OIExplorer -->
+    <logger name="fr.jmmc.oiexplorer" level="INFO"/>
+
+
+    <!-- LITpro -->
+    <logger name="fr.jmmc.mf" level="INFO"/>
+
+</included>

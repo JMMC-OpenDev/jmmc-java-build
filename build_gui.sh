@@ -8,5 +8,5 @@ cd -
 
 # Build all modules (skip test)
 mvn process-resources
-mvn -Djarsigner.skip=true -Dmaven.javadoc.skip=true -Dmaven.test.skip=true clean install
+mvn -Djarsigner.skip=true -Dmaven.javadoc.skip=true -Dmaven.test.skip=true verify
 

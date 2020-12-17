@@ -79,6 +79,10 @@ bash build_OImaging-srv.sh
 - run AppLauncher GUI:
     bash run_AppLauncher-gui.sh
 
+5. Run Tools from a single package (jar):
+cd jmmc-tools
+    use run_... scripts !
+    
 
 Enjoy all JMMC tools !
 

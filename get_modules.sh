@@ -56,12 +56,12 @@ svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/AppLauncher/trunk/
 
 
 # oidb deps
-svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/oiTools/trunk/oiexplorer-existdb
+# svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/oiTools/trunk/oiexplorer-existdb
 
 # oidb
-svn --username anonymous checkout https://svn.jmmc.fr/jmmc-web/trunk/exist
+# svn --username anonymous checkout https://svn.jmmc.fr/jmmc-web/trunk/exist
 
-cd exist
-bash ./get_deps.sh
-cd ..
+# cd exist
+# bash ./get_deps.sh
+# cd ..
 

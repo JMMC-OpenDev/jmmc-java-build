@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -rf jmmc-tools/target/
+
 rm -rf oiexplorer-core jmal OITools testgui jmcs
 
 rm -rf aspro aspro-conf

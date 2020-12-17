@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>fr.jmmc</groupId>
+    <artifactId>jmmc-java-build</artifactId>
+    <version>TRUNK</version>
+
+    <packaging>pom</packaging>
+    <name>JMMC Java modules</name>
+
+    <modules>
+        <module>jmcs</module>
+        <module>testgui</module>
+        <module>OITools</module>
+        <module>jmal</module>
+        <module>oiexplorer-core</module>
+
+        <module>aspro-conf</module>
+        <module>aspro</module>
+
+        <module>oimaging</module>
+    </modules>
+
+</project>
+
+

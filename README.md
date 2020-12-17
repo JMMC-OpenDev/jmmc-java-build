@@ -1,7 +1,6 @@
 # jmmc-java-build
 Build all JMMC Java GUI at once
 
-
 # License
 ```
 /*******************************************************************************
@@ -31,10 +30,10 @@ Build all JMMC Java GUI at once
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  ******************************************************************************/
- ```
+```
 
 
-# Requirements:
+# Requirements
 - OpenJDK 8+
 - Maven 3.6+
 
@@ -58,19 +57,27 @@ bash build_OImaging-srv.sh
 
 
 4. Run Tools:
-- run ASPRO2 GUI:
-bash run_Aspro2-gui.sh
+- run Aspro2 GUI:
+    bash run_Aspro2-gui.sh
+
+- run SearchCal GUI:
+    bash run_SearchCal-gui.sh
 
 - run OIFitsExplorer GUI:
-bash run_OIFitsExplorer-gui.sh
+    bash run_OIFitsExplorer-gui.sh
+
+- run LITpro GUI:
+    bash run_LITpro-gui.sh
 
 - run OImaging:
     - run OImaging UWS server (locally):
-    bash run_OImaging-srv.sh
+        bash run_OImaging-srv.sh
 
-    - run OImaging GUI:
-    bash run_OImaging-gui.sh
+    - run OImaging GUI (using local server):
+        bash run_OImaging-gui.sh
 
+- run AppLauncher GUI:
+    bash run_AppLauncher-gui.sh
 
 
 Enjoy all JMMC tools !

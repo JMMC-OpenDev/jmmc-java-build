@@ -5,9 +5,14 @@ jmal/
 oiexplorer-core/
 aspro-conf/
 aspro/
+sclgui/
 oiexplorer/
+mfgui/
 oimaging/
 oimaging-uws-server/
+smprsc/
+smprun/
+smptest/
 oiexplorer-existdb/
 exist/
 

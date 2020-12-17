@@ -3,6 +3,7 @@ Build all JMMC Java GUI at once
 
 
 # License
+```
 /*******************************************************************************
  *                 JMMC project
  *******************************************************************************
@@ -30,6 +31,7 @@ Build all JMMC Java GUI at once
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  ******************************************************************************/
+ ```
 
 
 # Requirements:

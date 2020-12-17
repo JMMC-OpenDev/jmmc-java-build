@@ -12,6 +12,8 @@
 
     <modules>
         <module>jmcs</module>
+        <module>jmcs/demo</module>
+
         <module>testgui</module>
         <module>OITools</module>
         <module>jmal</module>
@@ -19,8 +21,24 @@
 
         <module>aspro-conf</module>
         <module>aspro</module>
-
+<!--
+        <module>sclgui</module>
+-->
+        <module>oiexplorer</module>
+<!--
+        <module>mfgui</module>
+-->
         <module>oimaging</module>
+<!--
+        <module>smprsc</module>
+        <module>smprun</module>
+        <module>smptest</module>
+-->
+        <module>oiexplorer-existdb</module>
+<!--
+        <module>exist</module>
+-->
+
     </modules>
 
 </project>

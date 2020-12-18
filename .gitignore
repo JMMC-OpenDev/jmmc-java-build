@@ -15,5 +15,8 @@ smprun/
 smptest/
 oiexplorer-existdb/
 exist/
+
+jmmc-tools/*.zip
+jmmc-tools/bin/*.jar
 jmmc-tools/target/
 

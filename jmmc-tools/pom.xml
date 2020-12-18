@@ -46,6 +46,7 @@
                             <goal>single</goal>
                         </goals>
                         <configuration>
+                            <outputDirectory>bin</outputDirectory>
                             <descriptors>
                                 <descriptor>./assembly-jar-with-deps.xml</descriptor>
                             </descriptors>

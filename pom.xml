@@ -13,7 +13,7 @@
     <modules>
         <module>jmcs</module>
         <module>jmcs/demo</module>
-        <module>jmc/testgui</module>
+        <module>jmcs/testgui</module>
 
         <module>OITools</module>
         <module>jmal</module>

@@ -13,8 +13,8 @@
     <modules>
         <module>jmcs</module>
         <module>jmcs/demo</module>
+        <module>jmc/testgui</module>
 
-        <module>testgui</module>
         <module>OITools</module>
         <module>jmal</module>
         <module>oiexplorer-core</module>

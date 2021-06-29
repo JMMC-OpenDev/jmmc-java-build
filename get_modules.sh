@@ -5,9 +5,6 @@ set -ux;
 # jmcs
 svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/MCS/trunk/jmcs/
 
-# testgui
-svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/MCS/trunk/testgui/
-
 # oitools
 rm -rf OITools
 git clone --depth 1 https://github.com/JMMC-OpenDev/OITools.git

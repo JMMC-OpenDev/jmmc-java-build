@@ -2,8 +2,8 @@
 
 set -ux;
 
-# jmcs testgui jmal oiexplorer-core 
-svn --username anonymous update jmcs testgui jmal oiexplorer-core
+# jmcs  jmal oiexplorer-core 
+svn --username anonymous update jmcs jmal oiexplorer-core
 
 # oitools
 rm -rf OITools

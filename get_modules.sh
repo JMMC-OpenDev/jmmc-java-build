@@ -3,60 +3,60 @@
 set -ux;
 
 # jmcs
-svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/MCS/trunk/jmcs/
+git clone --depth 1 https://github.com/JMMC-OpenDev/jmcs.git/
 
 # oitools
-rm -rf OITools
-git clone --depth 1 https://github.com/JMMC-OpenDev/OITools.git
+rm -rf oitools
+git clone --depth 1 https://github.com/JMMC-OpenDev/oitools.git
 
 # jmal
-svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/MCS/trunk/jmal
+git clone --depth 1 https://github.com/JMMC-OpenDev/jmal.git
 
 # oiexplorer core
-svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/oiTools/trunk/oiexplorer-core
+git clone --depth 1 https://github.com/JMMC-OpenDev/oiexplorer-core.git
 
 
 # aspro-conf
-svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/ASPRO2/trunk/aspro-conf
+git clone --depth 1 https://github.com/JMMC-OpenDev/aspro-conf.git
 
 # aspro gui
-svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/ASPRO2/trunk/aspro
+git clone --depth 1 https://github.com/JMMC-OpenDev/aspro.git
 
 
 # searchcal gui
-svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/SearchCal/trunk/sclgui
+git clone --depth 1 https://github.com/JMMC-OpenDev/sclgui.git
 
 
 # oifits explorer gui
-svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/oiTools/trunk/oiexplorer
+git clone --depth 1 https://github.com/JMMC-OpenDev/oiexplorer.git
 
 
 # litpro gui
-svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/LITpro/trunk/mfgui
+git clone --depth 1 https://github.com/JMMC-OpenDev/mfgui.git
 
 
 # oimaging gui
-svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/oiTools/trunk/oimaging
+git clone --depth 1 https://github.com/JMMC-OpenDev/oimaging.git
 
 # oimaging uws server
-svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/oiTools/trunk/oimaging-uws-server
+git clone --depth 1 https://github.com/JMMC-OpenDev/oimaging-uws-server.git
 
 
 # app launcher config
-svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/AppLauncher/trunk/smprsc
+git clone --depth 1 https://github.com/JMMC-OpenDev/smprsc.git
 
 # app launcher
-svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/AppLauncher/trunk/smprun
+git clone --depth 1 https://github.com/JMMC-OpenDev/smprun.git
 
 # app launcher tester
-svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/AppLauncher/trunk/smptest
+git clone --depth 1 https://github.com/JMMC-OpenDev/smptest.git
 
 
 # oidb deps
-# svn --username anonymous checkout https://svn.jmmc.fr/jmmc-sw/oiTools/trunk/oiexplorer-existdb
+# git clone --depth 1 https://github.com/JMMC-OpenDev/oiexplorer-existdb.git
 
 # oidb
-# svn --username anonymous checkout https://svn.jmmc.fr/jmmc-web/trunk/exist
+# git clone --depth 1 https://svn.jmmc.fr/jmmc-web/trunk/exist
 
 # cd exist
 # bash ./get_deps.sh

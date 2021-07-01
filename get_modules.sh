@@ -8,7 +8,6 @@ set -ux;
 git clone --depth 1 ${BASE_URL}/jmcs.git
 
 # oitools
-rm -rf oitools
 git clone --depth 1 ${BASE_URL}/oitools.git
 
 # jmal

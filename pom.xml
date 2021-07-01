@@ -15,7 +15,7 @@
         <module>jmcs/demo</module>
         <module>jmcs/testgui</module>
 
-        <module>OITools</module>
+        <module>oitools</module>
         <module>jmal</module>
         <module>oiexplorer-core</module>
 

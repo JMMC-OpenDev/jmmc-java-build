@@ -2,8 +2,7 @@
 
 rm -rf jmmc-tools/target/
 
-rm -rf oiexplorer-core jmal OITools testgui jmcs
-
+rm -rf oiexplorer-core jmal oitools jmcs
 rm -rf aspro aspro-conf
 rm -rf sclgui
 rm -rf oiexplorer

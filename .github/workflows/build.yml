@@ -29,4 +29,12 @@ jobs:
           ./get_modules.sh
           echo "2. Build"
           ./build_gui.sh
+          echo "3. Make archive"
+          tar cvfz jmmc-tools-bin.tar.gz jmmc-tools/bin/
           echo "That's All, folks !"
+
+      - name: Upload
+        uses: actions/upload-artifact@v2
+        with:
+          name: JMMC-Tools-bin
+          path: jmmc-tools-bin.tar.gz

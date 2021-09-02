@@ -25,6 +25,8 @@ jobs:
       - name: Build (Maven)
         run: |
           java -version
+          echo "1. Get modules"
           ./get_modules.sh
-          -/build_gui.sh
+          echo "2. Build"
+          ./build_gui.sh
           echo "That's All, folks !"

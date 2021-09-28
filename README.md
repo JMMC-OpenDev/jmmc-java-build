@@ -1,7 +1,5 @@
 # jmmc-java-build
-Build all JMMC Java GUI at once
-
-<img src="https://raw.githubusercontent.com/JMMC-OpenDev/jmmc-java-build/main/jmmc-tools/jmmc-tools-logo-noel-vect.png" alt="logo"/>
+Build all JMMC Java GUI at once in a single package (jar + shell)
 
 # License
 ```

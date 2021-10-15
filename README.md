@@ -3,6 +3,8 @@ This module contains the workflow, developed by the JMMC technical team, to buil
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
+See [CI nightly builds](https://github.com/JMMC-OpenDev/jmmc-java-build/actions/workflows/build.yml)
+
 
 ## Build
 

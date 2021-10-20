@@ -15,51 +15,19 @@ Requirements:
 - Maven 3.6+
 
 
-How to:
+Instructions:
 
-0. Cleanup:
-bash clean.sh
+- Cleanup dependencies:
+`./clean.sh`
 
+- Get dependencies on the first time:
+`./get_modules.sh`
 
-1. Get source codes:
-bash get_modules.sh
+- Update dependencies:
+`./update_modules.sh`
 
+- Build dependencies and this module:
+`./build_gui.sh`
 
-2. Build Java GUIs:
-bash build_gui.sh
-
-
-3. Build OImaging UWS server:
-bash build_OImaging-srv.sh
-
-
-4. Run Tools:
-- run Aspro2 GUI:
-    bash run_Aspro2-gui.sh
-
-- run SearchCal GUI:
-    bash run_SearchCal-gui.sh
-
-- run OIFitsExplorer GUI:
-    bash run_OIFitsExplorer-gui.sh
-
-- run LITpro GUI:
-    bash run_LITpro-gui.sh
-
-- run OImaging:
-    - run OImaging UWS server (locally):
-        bash run_OImaging-srv.sh
-
-    - run OImaging GUI (using local server):
-        bash run_OImaging-gui.sh
-
-- run AppLauncher GUI:
-    bash run_AppLauncher-gui.sh
-
-5. Run Tools from a single package (jar):
-cd jmmc-tools
-    use run_... scripts !
-    
-
-Enjoy all JMMC tools !
-
+- Run OImaging GUI:
+`./run_OImaging-gui.sh`

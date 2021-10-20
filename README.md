@@ -26,8 +26,31 @@ Instructions:
 - Update dependencies:
 `./update_modules.sh`
 
-- Build dependencies and this module:
+- Build Java GUIs:
 `./build_gui.sh`
 
-- Run OImaging GUI:
-`./run_OImaging-gui.sh`
+- Build OImaging UWS server:
+`./build_OImaging-srv.sh`
+
+- Run Tools:
+  - run Aspro2 GUI:
+      `./run_Aspro2-gui.sh`
+  - run SearchCal GUI:
+      `./run_SearchCal-gui.sh`
+  - run OIFitsExplorer GUI:
+      `./run_OIFitsExplorer-gui.sh`
+  - run LITpro GUI:
+      `./run_LITpro-gui.sh`
+  - run OImaging:
+      - run OImaging UWS server (locally):
+          `./run_OImaging-srv.sh`
+      - run OImaging GUI (using local server):
+          `./run_OImaging-gui.sh`
+  - run AppLauncher GUI:
+      `./run_AppLauncher-gui.sh`
+
+- Run Tools from a single package (jar):
+  `cd jmmc-tools`
+    use `run_...sh` scripts !
+
+Enjoy all JMMC tools !

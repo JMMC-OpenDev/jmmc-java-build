@@ -49,6 +49,8 @@ Instructions:
   - run AppLauncher GUI:
       `./run_AppLauncher-gui.sh`
 
+You may add this root directory in your PATH to run all previous command from any other location.
+
 - Run Tools from a single package (jar):
   `cd jmmc-tools`
     use `run_...sh` scripts !

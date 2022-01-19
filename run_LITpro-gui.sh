@@ -1,4 +1,5 @@
 #!/bin/bash
 
-java -jar mfgui/target/mfgui-TRUNK-jar-with-dependencies.jar
+SCRIPTBASE="$(dirname $0)/.."
+java -jar "${SCRIPTBASE}/mfgui/target/mfgui-TRUNK-jar-with-dependencies.jar"
 

@@ -1,4 +1,5 @@
 #!/bin/bash
 
-java -jar smprun/target/smprun-TRUNK-jar-with-dependencies.jar
+SCRIPTBASE="$(dirname $0)/.."
+java -jar "${SCRIPTBASE}/smprun/target/smprun-TRUNK-jar-with-dependencies.jar"
 

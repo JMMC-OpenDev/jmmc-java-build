@@ -1,4 +1,5 @@
 #!/bin/bash
 
-java -jar oiexplorer/target/oiexplorer-TRUNK-jar-with-dependencies.jar
+SCRIPTBASE="$(dirname $0)/.."
+java -jar "${SCRIPTBASE}/oiexplorer/target/oiexplorer-TRUNK-jar-with-dependencies.jar"
 

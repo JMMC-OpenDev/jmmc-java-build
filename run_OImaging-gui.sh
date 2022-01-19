@@ -2,5 +2,6 @@
 
 export JAVA_OPTS="-DRemoteExecutionMode.local=false"
 
-java $JAVA_OPTS -jar oimaging/target/oimaging-TRUNK-jar-with-dependencies.jar
+SCRIPTBASE="$(dirname $0)/.."
+java $JAVA_OPTS -jar "${SCRIPTBASE}/oimaging/target/oimaging-TRUNK-jar-with-dependencies.jar"
 

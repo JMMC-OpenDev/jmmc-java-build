@@ -1,9 +1,18 @@
 #!/bin/bash
-# jdk17+: add --illegal-access=permit
+#
+# Simple Java runner for JMMC tools
+#
+
+# jdk17+: add "--illegal-access=permit"
 JAVA_OPTS="-Xms512m -Xmx4g $JAVA_OPTS"
-echo "JAVA_OPTS: $JAVA_OPTS"
 
-DIR="target"
+echo "Java version:"
+java -version
 
-java $JAVA_OPTS -cp $DIR/jmmc-tools-TRUNK-jar-with-dependencies.jar $1 $2 $3
+echo "JAVA_OPTS:   '$JAVA_OPTS'"
+echo "JAVA_TUNING: '$JAVA_TUNING'"
+
+DIR="bin"
+
+java $JAVA_TUNING $JAVA_OPTS -cp "$DIR/jmmc-tools-TRUNK-jar-with-dependencies.jar" $*;
 

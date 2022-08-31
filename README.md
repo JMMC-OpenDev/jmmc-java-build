@@ -39,6 +39,8 @@ Instructions:
       `./run_SearchCal-gui.sh`
   - run OIFitsExplorer GUI:
       `./run_OIFitsExplorer-gui.sh`
+  - run OIFitsProcessor CLI:
+      `./run_OIFitsProcessor.sh`
   - run LITpro GUI:
       `./run_LITpro-gui.sh`
   - run OImaging:

@@ -3,5 +3,5 @@
 # GUI LITpro
 #
 
-bash run.sh fr.jmmc.mf.LITpro $*;
+bash run.sh fr.jmmc.mf.LITpro "$@"
 

@@ -13,5 +13,5 @@ echo "JAVA_OPTS:   '$JAVA_OPTS'"
 echo "JAVA_TUNING: '$JAVA_TUNING'"
 
 SCRIPTBASE="$(dirname $0)"
-java $JAVA_OPTS -jar "${SCRIPTBASE}/oimaging/target/oimaging-TRUNK-jar-with-dependencies.jar" $*;
+java $JAVA_OPTS -jar "${SCRIPTBASE}/oimaging/target/oimaging-TRUNK-jar-with-dependencies.jar" "$@"
 

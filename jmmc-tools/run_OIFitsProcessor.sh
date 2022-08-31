@@ -3,5 +3,5 @@
 # CLI OIFitsProcessor
 #
 
-bash run.sh fr.jmmc.oitools.OIFitsProcessor $*;
+bash run.sh fr.jmmc.oitools.OIFitsProcessor "$@"
 

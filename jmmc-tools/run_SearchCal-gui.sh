@@ -3,5 +3,5 @@
 # GUI SearchCal
 #
 
-bash run.sh fr.jmmc.sclgui.SearchCal $*;
+bash run.sh fr.jmmc.sclgui.SearchCal "$@"
 

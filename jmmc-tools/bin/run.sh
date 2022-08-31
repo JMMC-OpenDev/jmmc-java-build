@@ -14,5 +14,5 @@ echo "JAVA_TUNING: '$JAVA_TUNING'"
 
 DIR="."
 
-java $JAVA_TUNING $JAVA_OPTS -cp "$DIR/jmmc-tools-TRUNK-jar-with-dependencies.jar" $*;
+java $JAVA_TUNING $JAVA_OPTS -cp "$DIR/jmmc-tools-TRUNK-jar-with-dependencies.jar" "$@"
 

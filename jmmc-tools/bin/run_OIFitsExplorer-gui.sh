@@ -3,5 +3,5 @@
 # GUI OIFitsExplorer
 #
 
-bash run.sh fr.jmmc.oiexplorer.OIFitsExplorer $*;
+bash run.sh fr.jmmc.oiexplorer.OIFitsExplorer "$@"
 

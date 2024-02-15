@@ -1,13 +1,19 @@
-# jmmc-java-build
+# ![JMMC logo](https://github.com/JMMC-OpenDev/.github/blob/main/doc/JMMC-logo.jpg) OpenDev - JMMC-Java-Build
 This module contains the workflow, developed by the JMMC technical team, to build all JMMC Java GUI at once in a single package (jar + shell).
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
-See [CI nightly builds](https://github.com/JMMC-OpenDev/jmmc-java-build/actions/workflows/build.yml)
+## License
+See [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+
+
+## Links:
+- [CI nightly builds](https://github.com/JMMC-OpenDev/jmmc-java-build/actions/workflows/build.yml)
+- [JMMC releases](https://www.jmmc.fr/releases/)
+- [JMMC OpenDev @ github](https://github.com/JMMC-OpenDev/)
+- [JMMC Web site](https://www.jmmc.fr)
 
 
 ## Build
-
 This JMMC module uses java / maven to build the jar file, to build the JMMC Java software packages.
 
 Requirements:
@@ -15,7 +21,7 @@ Requirements:
 - Maven 3.6+
 
 
-Instructions:
+### Instructions:
 
 - Cleanup dependencies:
 `./clean.sh`
@@ -57,4 +63,6 @@ You may add this root directory in your PATH to run all previous command from an
   `cd jmmc-tools`
     use `run_...sh` scripts !
 
-Enjoy all JMMC tools !
+
+**Enjoy all JMMC tools !**
+

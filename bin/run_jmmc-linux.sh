@@ -103,7 +103,8 @@ javaws --version
 
 
 # 3. Start JMMC application:
-JMMC_APP=http://apps.jmmc.fr/~betaswmgr/Aspro2/Aspro2.jnlp
+JMMC_APP=https://apps.jmmc.fr/~swmgr/Aspro2/Aspro2.jnlp
+#JMMC_APP=https://apps.jmmc.fr/~betaswmgr/Aspro2/Aspro2.jnlp
 
 echo "Starting JMMC application: $JMMC_APP"
 

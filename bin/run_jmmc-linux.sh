@@ -28,15 +28,13 @@ if [ ! -e "${JMMC_JAVA_HOME}" ]; then
 
     cd "${JMMC_HOME}"
 
-    JDK_DIR="jdk-17.0.7+7"
+    JDK_DIR="jdk-17.0.10+7"
 
     if [ ! -e "${JDK_DIR}" ]; then
 
-        # https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.7%2B7/OpenJDK17U-jdk_x64_linux_hotspot_17.0.7_7.tar.gz
-
-        JDK_BASE_URL="https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.7%2B7/"
+        JDK_BASE_URL="https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/"
         JDK_BASE_FILE="OpenJDK17U-jdk"
-        JDK_VER="hotspot_17.0.7_7"
+        JDK_VER="hotspot_17.0.10_7"
 
         EXT=".tar.gz"
         JDK_FILE="${JDK_BASE_FILE}_${ARCH}_${OS}_${JDK_VER}${EXT}"
@@ -105,7 +103,7 @@ javaws --version
 
 
 # 3. Start JMMC application:
-JMMC_APP=https://www.jmmc.fr/apps/public/Aspro2/Aspro2.jnlp
+JMMC_APP=http://apps.jmmc.fr/~betaswmgr/Aspro2/Aspro2.jnlp
 
 echo "Starting JMMC application: $JMMC_APP"
 

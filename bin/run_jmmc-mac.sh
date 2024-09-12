@@ -28,13 +28,13 @@ if [ ! -e "${JMMC_JAVA_HOME}" ]; then
 
     cd "${JMMC_HOME}"
 
-    JDK_DIR="jdk-17.0.10+7"
+    JDK_DIR="jdk-17.0.12+7"
 
     if [ ! -e "${JDK_DIR}" ]; then
 
-        JDK_BASE_URL="https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/"
+        JDK_BASE_URL="https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.12%2B7/"
         JDK_BASE_FILE="OpenJDK17U-jdk"
-        JDK_VER="hotspot_17.0.10_7"
+        JDK_VER="hotspot_17.0.12_7"
 
         EXT=".tar.gz"
         JDK_FILE="${JDK_BASE_FILE}_${ARCH}_${OS}_${JDK_VER}${EXT}"
@@ -44,10 +44,10 @@ if [ ! -e "${JMMC_JAVA_HOME}" ]; then
 
             echo "downloading '$URL' ..."
             curl -s -L $URL -o "${JDK_FILE}"
-        fi       
+        fi
 
         echo "extracting '${JDK_FILE}' ..."
-        tar xfz "${JDK_FILE}" 
+        tar xfz "${JDK_FILE}"
 
         rm -f "${JDK_FILE}"
     fi
@@ -85,13 +85,13 @@ if [ ! -e "${ITW_HOME}" ]; then
 
         echo "downloading '$URL' ..."
         curl -s -L $URL -o "${ITW_FILE}"
-    fi       
+    fi
 
     echo "extracting '${ITW_FILE}' ..."
     unzip -q -o "${ITW_FILE}"
 
     rm -f "${JAVA_BIN}/javaws"
-    ln -s "${ITW_HOME}/bin/javaws.sh" "${JAVA_BIN}/javaws" 
+    ln -s "${ITW_HOME}/bin/javaws.sh" "${JAVA_BIN}/javaws"
 
     rm -f "${ITW_FILE}"
 

@@ -1,6 +1,9 @@
 #!/bin/bash
 set -eux
 
+echo "Java version:"
+java -version
+
 # Install parent-pom
 cd jmcs/parent-pom
 # see README.md

@@ -12,4 +12,3 @@ REM set main class:
 SET CLASS=fr.jmmc.aspro.Aspro2
 
 CALL run_jmmc.bat
-

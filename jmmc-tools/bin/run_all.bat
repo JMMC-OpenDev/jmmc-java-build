@@ -6,17 +6,17 @@ REM Run all tools
 REM
 
 
-REM RUN run_AppLauncher-gui.bat
+REM START /B run_AppLauncher-gui.bat
 
-RUN run_Aspro2-gui.bat
-RUN run_SearchCal-gui.bat
+START /B run_Aspro2-gui.bat
+START /B run_SearchCal-gui.bat
 
-RUN run_OIFitsExplorer-gui.bat
+START /B run_OIFitsExplorer-gui.bat
 
-REM RUN run_LITpro-gui.bat
-REM RUN run_OImaging-gui.bat
+REM START /B run_LITpro-gui.bat
+REM START /B run_OImaging-gui.bat
 
-REM RUN run_OIFitsProcessor.bat
+REM START /B run_OIFitsProcessor.bat
 
 REM --- EoF ---
 

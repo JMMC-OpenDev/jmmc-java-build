@@ -6,7 +6,7 @@
 #
 
 # Set location of all-in-one jar file:
-export DIR=.
+export DIR=bin
 
 # Add JVM options (heap):
 export JAVA_OPTS="-Xms1024m -Xmx4096m ${JAVA_OPTS}"

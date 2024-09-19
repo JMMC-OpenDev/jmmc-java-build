@@ -6,7 +6,7 @@ REM Set general JVM settings
 REM
 
 REM Set location of all-in-one jar file:
-SET DIR=bin
+SET DIR=.
 
 REM Add JVM options (heap):
 SET JAVA_OPTS=-Xms1024m -Xmx4096m %JAVA_OPTS%

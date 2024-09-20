@@ -12,8 +12,8 @@ echo "JAVA_TUNING: '%JAVA_TUNING%'"
 
 SET CMD=java %JAVA_TUNING% %JAVA_OPTS% -cp %DIR%\jmmc-tools-TRUNK-jar-with-dependencies.jar %CLASS%
 
-echo "CMD: %CMD%"
-echo "ARGS: %*"
+REM echo "CMD: %CMD%"
+REM echo "ARGS: %*"
 
 echo "------------------------------------------------------------------------------"
 %CMD% %*

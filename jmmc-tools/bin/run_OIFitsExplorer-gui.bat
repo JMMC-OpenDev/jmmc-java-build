@@ -8,5 +8,5 @@ REM
 REM set main class:
 SET CLASS=fr.jmmc.oiexplorer.OIFitsExplorer
 
-CALL run_jmmc.bat
+CALL run_jmmc.bat %*
 

@@ -11,4 +11,4 @@ REM SET JAVA_OPTS=-Djmal.bb=false
 REM set main class:
 SET CLASS=fr.jmmc.oitools.OIFitsProcessor
 
-CALL run_jmmc.bat
+CALL run_jmmc.bat %*

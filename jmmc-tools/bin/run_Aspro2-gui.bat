@@ -11,5 +11,5 @@ REM SET JAVA_OPTS=-Djmal.bb=false
 REM set main class:
 SET CLASS=fr.jmmc.aspro.Aspro2
 
-CALL run_jmmc.bat
+CALL run_jmmc.bat %*
 

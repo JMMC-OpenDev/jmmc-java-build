@@ -8,7 +8,7 @@
 # set main class:
 export CLASS=fr.jmmc.mf.LITpro
 
-bash run_jmmc.sh
+bash run_jmmc.sh "${@}"
 
 # --- EoF ---
 

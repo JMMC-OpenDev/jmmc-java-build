@@ -8,7 +8,7 @@
 # set main class:
 export CLASS=fr.jmmc.sclgui.SearchCal
 
-bash run_jmmc.sh
+bash run_jmmc.sh "${@}"
 
 # --- EoF ---
 

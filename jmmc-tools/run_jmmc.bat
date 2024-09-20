@@ -10,12 +10,13 @@ CALL env.bat
 echo "JAVA_OPTS:   '%JAVA_OPTS%'"
 echo "JAVA_TUNING: '%JAVA_TUNING%'"
 
-SET CMD=java %JAVA_TUNING% %JAVA_OPTS% -cp %DIR%\jmmc-tools-TRUNK-jar-with-dependencies.jar %CLASS% %*
+SET CMD=java %JAVA_TUNING% %JAVA_OPTS% -cp %DIR%\jmmc-tools-TRUNK-jar-with-dependencies.jar %CLASS%
 
 echo "CMD: %CMD%"
+echo "ARGS: %*"
 
 echo "------------------------------------------------------------------------------"
-%CMD%
+%CMD% %*
 echo "------------------------------------------------------------------------------"
 
 REM --- EoF ---

@@ -11,7 +11,7 @@
 # set main class:
 export CLASS=fr.jmmc.aspro.Aspro2
 
-bash run_jmmc.sh
+bash run_jmmc.sh "${@}"
 
 # --- EoF ---
 

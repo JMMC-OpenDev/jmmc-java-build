@@ -8,6 +8,7 @@ on:
   schedule:
   - cron: "13 01 * * *"
 
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,6 +25,8 @@ jobs:
 
       - name: Build (Maven)
         run: |
+          echo $HOME
+          echo $MAVEN_OPTS
           java -version
           echo "1. Get modules"
           ./get_modules.sh
@@ -36,4 +39,6 @@ jobs:
         with:
           name: JMMC-Tools-bin
           path: jmmc-tools/bin/
+          retention-days: 7
+          overwrite: true
 
